@@ -14,5 +14,5 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: Bearer ${{ secrets.TRIGGER_TOKEN }}" \
           -H "User-Agent: automation-trigger" \
-          https://api.github.com/repos/fedify-dev/fedify/actions/workflows/sponsor.yml/dispatches \
+          https://api.github.com/repos/fedify-dev/fedify/actions/workflows/sponsors.yaml/dispatches \
           -d '{"ref":"main"}'
